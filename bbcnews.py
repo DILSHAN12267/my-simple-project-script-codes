@@ -117,7 +117,7 @@ class news_scraper:
                 server.sendmail(sender, receiver, msg.as_string())
             print("📧 Email with images sent successfully!")
         except Exception as e:
-            print("❌ Error sending email.:", e)
+            print("❌ Error sending email:", e)
     
 
 

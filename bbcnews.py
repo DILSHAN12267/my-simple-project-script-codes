@@ -32,7 +32,7 @@ class news_scraper:
     def send_headlines_mail(self):
         sender="dilshan9532@gmail.com"
         receiver="msha02615@gmail.com"
-        password="qrki eijy webp jhla"
+        password="app password"
 
         with open("headlines.txt","r",encoding="utf-8") as file:
             line=file.readlines()
